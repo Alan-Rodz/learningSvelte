@@ -3,10 +3,20 @@
 	import { createEventDispatcher } from 'svelte';
 	const dispatch = createEventDispatcher();
 	function sayHello() { dispatch('message', { text: 'Hello!' }); }
+
+  export let content = '';
 </script>
 
 <!--- Script --------------------------------------------------------------------->
-<!-- Explicitly nothing -->
+<button on:click={sayHello}>
+	{content ? content : 'Click to say Hello!'}
+</button>
 
 <!--- Style ---------------------------------------------------------------------->
-<style>/*Explicitly nothing*/</style>
+<style>
+	button { 
+		display: block;
+		margin-top: 10px;
+		color: cornflowerblue; 
+	}
+</style>

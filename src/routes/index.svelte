@@ -11,6 +11,13 @@
   import MouseEvent from '../component/MouseEvent.svelte';
   import EventModifier from '../component/EventModifier.svelte';
   import EventDispatch from '../component/EventDispatch.svelte';
+  import Outer from '../component/Outer.svelte';
+  import EventForwarding from '../component/EventForwarding.svelte';
+  import Bind from '../component/Bind.svelte';
+  import BindingConfig from '../component/BindingConfig.svelte';
+
+  function handleMessage(event: CustomEvent) { alert(event.detail.text); }
+  function handleClick() { alert('Button Clicked'); }
 </script>
 
 <!--- UI ------------------------------------------------------------------------->
@@ -27,6 +34,10 @@
   <MouseEvent />
   <EventModifier />
   <EventDispatch />
+  <Outer on:message={handleMessage} />
+  <EventForwarding on:click={handleClick}/>
+  <Bind />
+  <BindingConfig />
 </div>
 
 <!--- Style ----------------------------------------------------------------------->

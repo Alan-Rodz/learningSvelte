@@ -18,6 +18,11 @@
   import CheckBoxBinding from '../component/CheckBoxBinding.svelte';
   import Grouping from '../component/Grouping.svelte';
   import TextAreaBinding from '../component/TextAreaBinding.svelte';
+  import SelectBinding from '../component/SelectBinding.svelte';
+  import SelectMultiple from '../component/SelectMultiple.svelte';
+  import ContentEditableBinding from '../component/ContentEditableBinding.svelte';
+  import EachBinding from '../component/EachBinding.svelte';
+  import AudioVideoBinding from '../component/AudioVideoBinding.svelte';
 
   function handleMessage(event: CustomEvent) { alert(event.detail.text); }
   function handleClick() { alert('Button Clicked'); }
@@ -44,6 +49,11 @@
   <CheckBoxBinding />
   <Grouping />
   <TextAreaBinding />
+  <SelectBinding />
+  <SelectMultiple />
+  <ContentEditableBinding />
+  <EachBinding />
+  <AudioVideoBinding />
 </div>
 
 <!--- Style ---------------------------------------------------------------------->

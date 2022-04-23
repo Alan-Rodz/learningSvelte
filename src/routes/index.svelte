@@ -15,6 +15,9 @@
   import EventForwarding from '../component/EventForwarding.svelte';
   import Bind from '../component/Bind.svelte';
   import BindingConfig from '../component/BindingConfig.svelte';
+  import CheckBoxBinding from '../component/CheckBoxBinding.svelte';
+  import Grouping from '../component/Grouping.svelte';
+  import TextAreaBinding from '../component/TextAreaBinding.svelte';
 
   function handleMessage(event: CustomEvent) { alert(event.detail.text); }
   function handleClick() { alert('Button Clicked'); }
@@ -38,9 +41,12 @@
   <EventForwarding on:click={handleClick}/>
   <Bind />
   <BindingConfig />
+  <CheckBoxBinding />
+  <Grouping />
+  <TextAreaBinding />
 </div>
 
-<!--- Style ----------------------------------------------------------------------->
+<!--- Style ---------------------------------------------------------------------->
 <style>
   h1 { color: darkmagenta; }
 

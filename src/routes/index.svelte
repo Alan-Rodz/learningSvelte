@@ -33,6 +33,8 @@
   import Tick from '../component/Lifecycle/Tick.svelte';
   import WritableStore from '../component/Store/Writable/WritableStore.svelte';
   import ReadableStore from '../component/Store/Readable/ReadableStore.svelte';
+  import DerivedStore from '../component/Store/Derived/DerivedStore.svelte';
+  import CustomStore from '../component/Store/Custom/CustomStore.svelte';
 
   function handleMessage(event: CustomEvent) { alert(event.detail.text); }
   function handleClick() { alert('Button Clicked'); }
@@ -90,6 +92,8 @@
   <!-- Stores -->
   <WritableStore />
   <ReadableStore />
+  <DerivedStore />
+  <CustomStore />
   
 </div>
 

@@ -98,6 +98,16 @@
   import Option from '../component/SpecialElements/Option/Option.svelte';
   import Fragment from '../component/SpecialElements/Fragment/Fragment.svelte';
 
+  // Module Context
+  // import SharingCode from '../component/ModuleContext/SharingCode/SharingCode.svelte';  
+  // import Export from '../component/ModuleContext/Export/Export.svelte';  
+
+  // Debugging
+  import Debug from '../component/Debugging/Debug.svelte';
+
+  // Finish
+  // import Finish from '../component/Finish/Finish.svelte';
+
 
   // Functions
   function handleMessage(event: CustomEvent) { alert(event.detail.text); }
@@ -208,6 +218,16 @@
   <Head />
   <Option />
   <Fragment />
+
+  <!-- Module Context -->
+  <!-- <SharingCode /> -->
+  <!-- <Export /> -->
+
+  <!-- Debugging -->
+  <Debug />
+  
+  <!-- Finish -->
+  <!-- <Finish /> -->
 
 </div>
 

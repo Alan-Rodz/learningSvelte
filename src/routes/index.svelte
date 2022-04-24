@@ -85,7 +85,10 @@
   import SlotProps from '../component/ComponentComposition/SlotProps.svelte';
 
   // Context
-  import SettingAndGettingContext from '../component/Context/SettingAndGettingContext.svelte';
+  // import SettingAndGettingContext from '../component/Context/SettingAndGettingContext.svelte';
+  
+  // Special Elements
+  import Self from '../component/SpecialElements/Self.svelte';
 
 
   // Functions
@@ -185,7 +188,10 @@
   <SlotProps />
 
   <!-- Context -->
-  <SettingAndGettingContext />
+  <!-- <SettingAndGettingContext /> -->
+
+  <!-- Special Elements -->
+  <Self />
 
 </div>
 

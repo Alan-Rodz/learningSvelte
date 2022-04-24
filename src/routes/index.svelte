@@ -82,6 +82,10 @@
   import SlotFallback from '../component/ComponentComposition/SlotFallback.svelte';
   import NamedSlot from '../component/ComponentComposition/NamedSlot.svelte';
   import CheckingForSlotContent from '../component/ComponentComposition/CheckingForSlotContent.svelte';
+  import SlotProps from '../component/ComponentComposition/SlotProps.svelte';
+
+  // Context
+  import SettingAndGettingContext from '../component/Context/SettingAndGettingContext.svelte';
 
 
   // Functions
@@ -178,6 +182,10 @@
   <SlotFallback />
   <NamedSlot />
   <CheckingForSlotContent />
+  <SlotProps />
+
+  <!-- Context -->
+  <SettingAndGettingContext />
 
 </div>
 

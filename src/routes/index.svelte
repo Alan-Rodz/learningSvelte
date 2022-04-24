@@ -56,6 +56,14 @@
 
   // Transition
   import Fade from '../component/Transition/Fade.svelte';
+  import Fly from '../component/Transition/Fly.svelte';
+  import InAndOut from '../component/Transition/InAndOut.svelte';
+  import Custom from '../component/Transition/Custom.svelte';
+  import CustomWithJS from '../component/Transition/CustomWithJS.svelte';
+  import WithEvents from '../component/Transition/WithEvents.svelte';
+  import Local from '../component/Transition/Local.svelte';
+  import Deferred from '../component/Transition/Deferred.svelte';
+  import KeyBlock from '../component/Transition/KeyBlock.svelte';
 
   // Functions
   function handleMessage(event: CustomEvent) { alert(event.detail.text); }
@@ -124,7 +132,15 @@
 
   <!-- Transition -->
   <Fade />
-  
+  <Fly />
+  <InAndOut />
+  <Custom />
+  <CustomWithJS />
+  <WithEvents />
+  <Local />
+  <Deferred />
+  <KeyBlock />
+
 </div>
 
 <!--- Style ---------------------------------------------------------------------->

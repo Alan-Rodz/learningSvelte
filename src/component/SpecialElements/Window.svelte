@@ -1,0 +1,46 @@
+<!--- Script --------------------------------------------------------------------->
+<script lang='ts'>
+	let key: string;
+	let keyCode: number;
+
+	function handleKeydown(event: KeyboardEvent) {
+		key = event.key;
+		keyCode = event.keyCode;
+	}
+</script>
+
+<!--- UI ------------------------------------------------------------------------->
+<h1>Window Special Element</h1>
+<svelte:window on:keydown={handleKeydown}/>
+
+<div style="text-align: center">
+	{#if key}
+		<kbd>{key === ' ' ? 'Space' : key}</kbd>
+		<p>{keyCode}</p>
+	{:else}
+		<p>Focus this window and press any key</p>
+	{/if}
+</div>
+
+<!--- Style ---------------------------------------------------------------------->
+<style>
+	div {
+		display: flex;
+		height: 100%;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	kbd {
+		background-color: #eee;
+		border-radius: 4px;
+		font-size: 6em;
+		padding: 0.2em 0.5em;
+		border-top: 5px solid rgba(255, 255, 255, 0.5);
+		border-left: 5px solid rgba(255, 255, 255, 0.5);
+		border-right: 5px solid rgba(0, 0, 0, 0.2);
+		border-bottom: 5px solid rgba(0, 0, 0, 0.2);
+		color: #555;
+	}
+</style>

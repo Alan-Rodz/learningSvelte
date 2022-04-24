@@ -91,6 +91,12 @@
   import Self from '../component/SpecialElements/Self/Self.svelte';
   import Component from '../component/SpecialElements/Component/Component.svelte';
   import Element from '../component/SpecialElements/Element/Element.svelte';
+  import Window from '../component/SpecialElements/Window.svelte';
+  import Head from '../component/SpecialElements/Head.svelte';
+  // import WindowProperty from '../component/SpecialElements/WindowProperty.svelte';
+  // import Body from '../component/SpecialElements/Body.svelte';
+  import Option from '../component/SpecialElements/Option/Option.svelte';
+  import Fragment from '../component/SpecialElements/Fragment/Fragment.svelte';
 
 
   // Functions
@@ -196,6 +202,12 @@
   <Self />
   <Component />
   <Element />
+  <Window />
+  <!-- <WindowProperty /> -->
+  <!-- <Body /> -->
+  <Head />
+  <Option />
+  <Fragment />
 
 </div>
 

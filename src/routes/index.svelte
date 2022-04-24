@@ -27,6 +27,7 @@
   import ThisBinding from '../component/Binding/ThisBinding.svelte';
   import ComponentBinding from '../component/Binding/ComponentBinding.svelte';
   import ComponentInstanceBinding from '../component/Binding/ComponentInstanceBinding.svelte';
+  import OnMount from '../component/Lifecycle/OnMountLifecycle.svelte';
 
   function handleMessage(event: CustomEvent) { alert(event.detail.text); }
   function handleClick() { alert('Button Clicked'); }
@@ -76,6 +77,7 @@
   <ComponentInstanceBinding />
 
   <!-- Lifecycle -->
+  <OnMount />
   
 </div>
 

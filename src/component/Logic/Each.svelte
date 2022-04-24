@@ -1,6 +1,6 @@
 <!--- Script --------------------------------------------------------------------->
 <script lang='ts'>
-	import Thing from '../Thing.svelte';
+	import Thing from './Thing.svelte';
 
 	let things = [
 		{ id: 1, name: 'apple' },

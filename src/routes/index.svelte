@@ -5,7 +5,7 @@
   import Numbers from '../component/Reactivity/Numbers.svelte';
   import Props from '../component/Props/Props.svelte';
   import LoginButton from '../component/Logic/LoginButton.svelte';
-  import Logic from '../component/Logic.svelte';
+  import Logic from '../component/Logic/Logic.svelte';
   import Each from '../component/Logic/Each.svelte';
   import Promise from '../component/Logic/Promise.svelte';
   import MouseEvent from '../component/Event/MouseEvent.svelte';
@@ -13,17 +13,20 @@
   import EventDispatch from '../component/Event/EventDispatch.svelte';
   import Outer from '../component/Event/Outer.svelte';
   import EventForwarding from '../component/Event/EventForwarding.svelte';
-  import Bind from '../component/Bind.svelte';
-  import BindingConfig from '../component/BindingConfig.svelte';
-  import CheckBoxBinding from '../component/CheckBoxBinding.svelte';
-  import Grouping from '../component/Grouping.svelte';
-  import TextAreaBinding from '../component/TextAreaBinding.svelte';
-  import SelectBinding from '../component/SelectBinding.svelte';
-  import SelectMultiple from '../component/SelectMultiple.svelte';
-  import ContentEditableBinding from '../component/ContentEditableBinding.svelte';
-  import EachBinding from '../component/EachBinding.svelte';
+  import Bind from '../component/Binding/Bind.svelte';
+  import BindingConfig from '../component/Binding/BindingConfig.svelte';
+  import CheckBoxBinding from '../component/Binding/CheckBoxBinding.svelte';
+  import Grouping from '../component/Binding/Grouping.svelte';
+  import TextAreaBinding from '../component/Binding/TextAreaBinding.svelte';
+  import SelectBinding from '../component/Binding/SelectBinding.svelte';
+  import SelectMultiple from '../component/Binding/SelectMultiple.svelte';
+  import ContentEditableBinding from '../component/Binding/ContentEditableBinding.svelte';
+  import EachBinding from '../component/Binding/EachBinding.svelte';
   import AudioVideoBinding from '../component/Binding/AudioVideoBinding.svelte';
-  import DimensionBinding from '../component/DimensionBinding.svelte';
+  import DimensionBinding from '../component/Binding/DimensionBinding.svelte';
+  import ThisBinding from '../component/Binding/ThisBinding.svelte';
+  import ComponentBinding from '../component/Binding/ComponentBinding.svelte';
+  import ComponentInstanceBinding from '../component/Binding/ComponentInstanceBinding.svelte';
 
   function handleMessage(event: CustomEvent) { alert(event.detail.text); }
   function handleClick() { alert('Button Clicked'); }
@@ -68,6 +71,12 @@
   <EachBinding />
   <AudioVideoBinding />
   <DimensionBinding />
+  <ThisBinding />
+  <ComponentBinding />
+  <ComponentInstanceBinding />
+
+  <!-- Lifecycle -->
+  
 </div>
 
 <!--- Style ---------------------------------------------------------------------->

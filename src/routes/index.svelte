@@ -54,6 +54,9 @@
   import Tweened from '../component/Motion/Tweened.svelte';
   import Spring from '../component/Motion/Spring.svelte';
 
+  // Transition
+  import Fade from '../component/Transition/Fade.svelte';
+
   // Functions
   function handleMessage(event: CustomEvent) { alert(event.detail.text); }
   function handleClick() { alert('Button Clicked'); }
@@ -118,6 +121,10 @@
   <!-- Motion -->
   <Tweened />
   <Spring />
+
+  <!-- Transition -->
+  <Fade />
+  
 </div>
 
 <!--- Style ---------------------------------------------------------------------->

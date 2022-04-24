@@ -29,6 +29,8 @@
   import ComponentInstanceBinding from '../component/Binding/ComponentInstanceBinding.svelte';
   import OnMount from '../component/Lifecycle/Mount.svelte';
   import OnDestroy from '../component/Lifecycle/Destroy.svelte';
+  import BeforeAndAfter from '../component/Lifecycle/BeforeAndAfter.svelte';
+  import Tick from '../component/Lifecycle/Tick.svelte';
 
   function handleMessage(event: CustomEvent) { alert(event.detail.text); }
   function handleClick() { alert('Button Clicked'); }
@@ -80,6 +82,8 @@
   <!-- Lifecycle -->
   <OnMount />
   <OnDestroy />
+  <BeforeAndAfter />
+  <Tick />
   
 </div>
 

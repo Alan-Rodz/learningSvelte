@@ -65,6 +65,12 @@
   import Deferred from '../component/Transition/Deferred.svelte';
   import KeyBlock from '../component/Transition/KeyBlock.svelte';
 
+  // Animation
+  import AnimateDirective from '../component/Animation/AnimateDirective.svelte';
+
+  // Action
+  import UseDirective from '../component/Action/UseDirective.svelte';
+
   // Functions
   function handleMessage(event: CustomEvent) { alert(event.detail.text); }
   function handleClick() { alert('Button Clicked'); }
@@ -140,6 +146,12 @@
   <Local />
   <Deferred />
   <KeyBlock />
+
+  <!-- Animation -->
+  <AnimateDirective />
+  
+  <!-- Action -->
+  <UseDirective />
 
 </div>
 

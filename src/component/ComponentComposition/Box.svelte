@@ -4,9 +4,12 @@
 <!--- UI ------------------------------------------------------------------------->
 <!-- Before a component can accept children, though, it needs to know where to put them. We do this with the <slot> element -->
 <div class='box'>
-	<slot></slot>
+	<slot>
+		<!-- Fallback Content -->
+		<em>no content was provided</em>
+	</slot>
 </div>
-
+	
 <!--- Style ---------------------------------------------------------------------->
 <style>
 	.box {

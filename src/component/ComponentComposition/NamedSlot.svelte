@@ -1,14 +1,20 @@
 <!--- Script --------------------------------------------------------------------->
 <script lang='ts'>
-	import Box from './Box.svelte';
+	import ContactCard from './ContactCard.svelte';
 </script>
 
 <!--- UI ------------------------------------------------------------------------->
-<h1>Component Composition</h1>
-<Box>
-	<h2>Hello!</h2>
-	<p>This is a box. It can contain anything.</p>
-</Box>
+<h1>Named Slot</h1>
+<ContactCard>
+	<span slot='name'>
+		P. Sherman
+	</span>
+
+	<span slot='address'>
+		42 Wallaby Way<br>
+		Sydney
+	</span>
+</ContactCard>
 
 <!--- Style ---------------------------------------------------------------------->
 <!-- Explicitly Nothing -->

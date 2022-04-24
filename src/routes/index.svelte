@@ -32,6 +32,7 @@
   import BeforeAndAfter from '../component/Lifecycle/BeforeAndAfter.svelte';
   import Tick from '../component/Lifecycle/Tick.svelte';
   import WritableStore from '../component/Store/Writable/WritableStore.svelte';
+  import ReadableStore from '../component/Store/Readable/ReadableStore.svelte';
 
   function handleMessage(event: CustomEvent) { alert(event.detail.text); }
   function handleClick() { alert('Button Clicked'); }
@@ -88,6 +89,7 @@
 
   <!-- Stores -->
   <WritableStore />
+  <ReadableStore />
   
 </div>
 

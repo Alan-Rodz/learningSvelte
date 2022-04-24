@@ -13,7 +13,7 @@
 <!-- Auto-subscription only works with store variables that are declared (or imported) at the top-level scope of a component. -->
 <!-- Any name beginning with $ is assumed to refer to a store value.  -->
 <!-- It's effectively a reserved character — Svelte will prevent you from declaring your own variables with a $ prefix. -->
-<h1>The count is {$count}</h1>
+<h2>The count is {$count}</h2>
 
 <Incrementer/>
 <Decrementer/>

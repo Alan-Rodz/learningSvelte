@@ -22,7 +22,7 @@
 
 <!--- UI ------------------------------------------------------------------------->
 <h1>onMount</h1>
-<h1>A bunch of posts</h1>
+<h2>A bunch of posts</h2>
 <div class='posts'>
   {#each posts as post}
     <p>{JSON.stringify(post)}</p>

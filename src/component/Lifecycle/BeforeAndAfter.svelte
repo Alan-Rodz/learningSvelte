@@ -58,7 +58,7 @@
 <!--- UI ------------------------------------------------------------------------->
 <h1>BeforeUpdate & AfterUpdate</h1>
 <div class='chat'>
-	<h1>Eliza</h1>
+	<h2>Eliza</h2>
 
 	<div class='scrollable' bind:this={div}>
 		{#each comments as comment}

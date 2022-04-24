@@ -52,7 +52,7 @@
 
 <!--- UI ------------------------------------------------------------------------->
 <h1>Audio / Video Binding</h1>
-<h1>Caminandes: Llamigos</h1>
+<h2>Caminandes: Llamigos</h2>
 <p>From <a href="https://studio.blender.org/films">Blender Studio</a>. CC-BY</p>
 
 <div>

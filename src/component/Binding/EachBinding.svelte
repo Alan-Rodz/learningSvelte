@@ -19,7 +19,7 @@
 
 <!--- UI ------------------------------------------------------------------------->
 <h1>Binding inside Each</h1>
-<h1>Todos</h1>
+<h2>Todos</h2>
 
 {#each todos as todo}
 	<div class:done={todo.done}>

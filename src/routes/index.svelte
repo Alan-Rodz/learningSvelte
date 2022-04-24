@@ -70,6 +70,7 @@
 
   // Action
   import UseDirective from '../component/Action/UseDirective.svelte';
+  import Longpress from '../component/Action/Longpress.svelte';
 
   // Functions
   function handleMessage(event: CustomEvent) { alert(event.detail.text); }
@@ -152,6 +153,7 @@
   
   <!-- Action -->
   <UseDirective />
+  <Longpress />
 
 </div>
 

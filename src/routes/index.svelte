@@ -71,10 +71,20 @@
   // Action
   import UseDirective from '../component/Action/UseDirective.svelte';
   import Longpress from '../component/Action/Longpress.svelte';
+  
+  // Advanced Styling
+  import ClassDirective from '../component/AdvancedStyling/ClassDirective.svelte';
+  import ShorthandClassDirective from '../component/AdvancedStyling/ShorthandClassDirective.svelte';
+  import InlineStyles from '../component/AdvancedStyling/InlineStyles.svelte';
+  
+  // Component Composition
+  import Slot from '../component/ComponentComposition/Slot.svelte';
+
 
   // Functions
   function handleMessage(event: CustomEvent) { alert(event.detail.text); }
   function handleClick() { alert('Button Clicked'); }
+
 </script>
 
 <!--- UI ------------------------------------------------------------------------->
@@ -154,6 +164,14 @@
   <!-- Action -->
   <UseDirective />
   <Longpress />
+  
+  <!-- Advanced Styling -->
+  <ClassDirective />
+  <ShorthandClassDirective />
+  <InlineStyles />
+
+  <!-- Component Composition -->
+  <Slot />
 
 </div>
 

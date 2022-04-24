@@ -90,6 +90,7 @@
   // Special Elements
   import Self from '../component/SpecialElements/Self/Self.svelte';
   import Component from '../component/SpecialElements/Component/Component.svelte';
+  import Element from '../component/SpecialElements/Element/Element.svelte';
 
 
   // Functions
@@ -194,6 +195,7 @@
   <!-- Special Elements -->
   <Self />
   <Component />
+  <Element />
 
 </div>
 

@@ -35,6 +35,7 @@
   import ReadableStore from '../component/Store/Readable/ReadableStore.svelte';
   import DerivedStore from '../component/Store/Derived/DerivedStore.svelte';
   import CustomStore from '../component/Store/Custom/CustomStore.svelte';
+  import StoreBinding from '../component/Store/Binding/StoreBinding.svelte';
 
   function handleMessage(event: CustomEvent) { alert(event.detail.text); }
   function handleClick() { alert('Button Clicked'); }
@@ -94,6 +95,7 @@
   <ReadableStore />
   <DerivedStore />
   <CustomStore />
+  <StoreBinding />
   
 </div>
 

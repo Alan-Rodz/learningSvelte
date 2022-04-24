@@ -31,6 +31,7 @@
   import OnDestroy from '../component/Lifecycle/Destroy.svelte';
   import BeforeAndAfter from '../component/Lifecycle/BeforeAndAfter.svelte';
   import Tick from '../component/Lifecycle/Tick.svelte';
+  import WritableStore from '../component/Store/Writable/WritableStore.svelte';
 
   function handleMessage(event: CustomEvent) { alert(event.detail.text); }
   function handleClick() { alert('Button Clicked'); }
@@ -84,6 +85,9 @@
   <OnDestroy />
   <BeforeAndAfter />
   <Tick />
+
+  <!-- Stores -->
+  <WritableStore />
   
 </div>
 

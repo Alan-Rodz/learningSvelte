@@ -8,4 +8,4 @@
 <Inner on:message={handleMessage}/>
 
 <!--- Style ----------------------------------------------------------------------->
-<style>/*Explicitly nothing*/</style>
+<style>/*Explicitly Nothing*/</style>

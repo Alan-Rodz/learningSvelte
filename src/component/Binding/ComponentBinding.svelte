@@ -16,4 +16,4 @@
 <Keypad bind:value={pin} on:submit={handleSubmit}/>
 
 <!--- Style ---------------------------------------------------------------------->
-<!-- Explicitly nothing -->
+<!-- Explicitly Nothing -->

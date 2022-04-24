@@ -23,4 +23,4 @@
 {/each}
 
 <!--- Style ----------------------------------------------------------------------->
-<style>/*Explicitly nothing*/</style>
+<style>/*Explicitly Nothing*/</style>

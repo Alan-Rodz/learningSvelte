@@ -1,5 +1,5 @@
 <!--- Script --------------------------------------------------------------------->
-<script>
+<script lang='ts'>
 	import { name, greeting } from './store';
 </script>
 

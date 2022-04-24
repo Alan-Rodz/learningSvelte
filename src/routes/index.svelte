@@ -52,6 +52,7 @@
 
   // Motion
   import Tweened from '../component/Motion/Tweened.svelte';
+  import Spring from '../component/Motion/Spring.svelte';
 
   // Functions
   function handleMessage(event: CustomEvent) { alert(event.detail.text); }
@@ -116,7 +117,7 @@
 
   <!-- Motion -->
   <Tweened />
-  
+  <Spring />
 </div>
 
 <!--- Style ---------------------------------------------------------------------->

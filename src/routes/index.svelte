@@ -88,7 +88,8 @@
   // import SettingAndGettingContext from '../component/Context/SettingAndGettingContext.svelte';
   
   // Special Elements
-  import Self from '../component/SpecialElements/Self.svelte';
+  import Self from '../component/SpecialElements/Self/Self.svelte';
+  import Component from '../component/SpecialElements/Component/Component.svelte';
 
 
   // Functions
@@ -192,6 +193,7 @@
 
   <!-- Special Elements -->
   <Self />
+  <Component />
 
 </div>
 

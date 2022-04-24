@@ -4,7 +4,8 @@
 </script>
 
 <!--- UI ------------------------------------------------------------------------->
-<h1>{$greeting}</h1>
+<h1>Store Binding</h1>
+<h2>{$greeting}</h2>
 
 <!-- If a store is writable — i.e. it has a set method — you can bind to its value, just as you can bind to local component state. -->
 <!-- Changing the input value will now update name and all its dependents. -->

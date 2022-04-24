@@ -1,13 +1,22 @@
 <!--- Script --------------------------------------------------------------------->
 <script lang='ts'>
+  // Intro
   import Basic from '../component/Intro/Basic.svelte';
+
+  // Reactivity
   import Counter from '../component/Reactivity/Counter.svelte';
   import Numbers from '../component/Reactivity/Numbers.svelte';
+
+  // Props
   import Props from '../component/Props/Props.svelte';
+
+  // Logic
   import LoginButton from '../component/Logic/LoginButton.svelte';
   import Logic from '../component/Logic/Logic.svelte';
   import Each from '../component/Logic/Each.svelte';
   import Promise from '../component/Logic/Promise.svelte';
+
+  // Events
   import MouseEvent from '../component/Event/MouseEvent.svelte';
   import EventModifier from '../component/Event/EventModifier.svelte';
   import EventDispatch from '../component/Event/EventDispatch.svelte';
@@ -27,16 +36,24 @@
   import ThisBinding from '../component/Binding/ThisBinding.svelte';
   import ComponentBinding from '../component/Binding/ComponentBinding.svelte';
   import ComponentInstanceBinding from '../component/Binding/ComponentInstanceBinding.svelte';
+
+  // Lifecycle
   import OnMount from '../component/Lifecycle/Mount.svelte';
   import OnDestroy from '../component/Lifecycle/Destroy.svelte';
   import BeforeAndAfter from '../component/Lifecycle/BeforeAndAfter.svelte';
   import Tick from '../component/Lifecycle/Tick.svelte';
+
+  // Stores
   import WritableStore from '../component/Store/Writable/WritableStore.svelte';
   import ReadableStore from '../component/Store/Readable/ReadableStore.svelte';
   import DerivedStore from '../component/Store/Derived/DerivedStore.svelte';
   import CustomStore from '../component/Store/Custom/CustomStore.svelte';
   import StoreBinding from '../component/Store/Binding/StoreBinding.svelte';
 
+  // Motion
+  import Tweened from '../component/Motion/Tweened.svelte';
+
+  // Functions
   function handleMessage(event: CustomEvent) { alert(event.detail.text); }
   function handleClick() { alert('Button Clicked'); }
 </script>
@@ -96,6 +113,9 @@
   <DerivedStore />
   <CustomStore />
   <StoreBinding />
+
+  <!-- Motion -->
+  <Tweened />
   
 </div>
 
